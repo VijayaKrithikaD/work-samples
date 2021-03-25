@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <style>
+             *{
+                 box-sizing: border-box;
+             }
+
+             body{
+                 background: color #f0f0f0;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 margin: 0;
+                 min-height: 100vh;
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;
+                 overflow: hidden;
+
+             }
+
+             .container{
+                 background-color: white;
+                 border-radius: 10px;
+                 width: 400px;
+                 max-width: 100%;
+                 overflow: hidden;
+                 box-shadow: 0 0 0 0.3;
+                 border: 2px solid black;
+             }
+
+             .logo{
+                 background-color: #f7f7f7;
+                 padding:20px 40px;
+                 border-bottom: 1px solid #f0f0f0;
+
+             }
+
+
+             .blue-container{
+                 background-color: rgb(20, 111, 230);
+                 padding: 20px;
+                 text-align: center;
+
+             }
+             .info{
+                padding: 5px;
+                 text-align: center;
+                 background-color: #f7f7f7;
+
+
+             }
+.form{
+    padding: 30px 40px;
+  
+    
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    display: inline-block;
+    background-color: #f7f7f7;
+}
+
+input:focus{
+    border: 2px solid #39c1eb;
+    box-shadow: 2px 2px 5px #39c1eb;
+
+}
+.button{
+    color: white; 
+    width: 150px;
+    border: 2px solid #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(15, 15, 88);
+    margin-left: 80px;
+    height: 40px;
+    cursor: pointer;
+
+    
+}
+h5{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+
+        <div class="logo">
+                <img src="D:\New folder\logos\boomi.png"   width="300px" height="60px" alt="boomi.png"/></div>
+            
+    
+         <form  id="form"  class="form" action="">
+  <div class="form-control">
+
+    <input type= "email" id="email" placeholder="Email address" autocomplete="off"/></br></div>
+    <div class="form-control">
+  <input type="password" id="pass" placeholder="password" autocomplete="off"/></br></div>
+  <div>
+  <input type="button"    class="button" id="login" value="Login"/>
+</div>
+</form>
+<div  class="info"><h6><strong>Help</strong> I forgot my password</h6>
+    <h5>View Privacy Policy</h5></div>
+
+
+        
+        
+
+<div class="blue-container">
+<p> <strong>Dont Have An Account?</strong></p> 
+<p>Learn more about applications and data integrations solutions from Dell Bhoomi</p>
+ </div>
+
+</div>
+     </body>
+ </html>

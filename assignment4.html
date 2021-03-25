@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" initial-scale:"1.0" content="width=device-width"/>
+        
+        <style>
+           *{
+               box-sizing: border-box;
+           }
+
+   
+
+            .classy{
+                width: 12%;
+                height: 100px;
+                border: 3px solid black;
+                border-radius: 100%;
+                float: left;
+                margin: 25px;
+                margin-left: 40px;
+                text-align: center;
+                font-size: 30px;
+                padding: 25px;
+                background-color: white;
+                visibility: visible;
+                
+            }
+
+            .classy:hover{
+                        box-shadow: 2px 2px 5px black;
+                        cursor: pointer;
+                        background-color: cornflowerblue;
+                        
+                        
+                    }
+
+
+
+
+            .full-container{
+                width: 1000px;
+                height: 500px;
+                border: 3px solid black;
+                background-color: #ccc;
+            }
+
+            .left-container{
+                      width: 40%;
+                      float: left;
+                      
+                      height: 300px;
+                      margin: 5px;
+                    }
+
+               
+                    .middle-container{
+                      width: 15%;
+                      border: 3px solid black;
+                      height: 100px;
+                      float: left;
+                      margin: 100px 10px;
+                      border-radius: 100%;
+                      text-align: center;
+                      font-size: 30px;
+                      padding: 25px;
+                      background-color: white;
+                    }
+                    .middle-container:hover{
+                        box-shadow: 2px 2px 5px black;
+                        cursor: pointer;
+                        background-color: cornflowerblue;
+
+                    }
+
+
+            button{
+                  border: 3px solid black;
+                   width: 60%;
+                  height: 50px;
+                  margin: 25px 60px;
+              
+                }
+                    .right-container{
+                      width: 40%;
+                      float: right;
+                      height: 300px;
+                      marg }
+
+                  .red{
+                      background-color: red;
+                  }
+                  
+                  .green{
+                      background-color: green;
+                  }
+                  
+                  .blue{
+                      background-color: blue;
+                  }
+                  
+                  .violet{
+                      background-color: rgb(90, 7, 90);
+                  }
+                  
+                  .yellow{
+                      background-color: yellow;
+                  }
+                  
+                  .cream{
+                      background-color: rgb(211, 190, 190);
+                  }
+
+                
+
+
+                  
+        </style>
+
+<script type="text/javascript">
+
+
+function myFunctionA() {
+  document.getElementById("button-green").style.visibility="hidden";
+  document.getElementById("button-red").style.visibility="hidden";
+  document.getElementById("button-blue").style.visibility="hidden";
+  document.getElementById("button-green").innerHTML="";
+  document.getElementById("button-red").innerHTML="";
+  document.getElementById("button-blue").innerHTML="";
+  document.getElementById("button-violet").innerHTML="";
+  document.getElementById("button-cream").innerHTML="";
+  document.getElementById("button-yellow").innerHTML="";
+  document.getElementById("button-green").style.backgroundColor="green";
+  document.getElementById("button-red").style.backgroundColor="red";
+  document.getElementById("button-blue").style.backgroundColor="blue";
+  document.getElementById("button-yellow").style.backgroundColor="yellow";
+  document.getElementById("button-cream").style.backgroundColor="rgb(211,190,190)";
+  document.getElementById("button-violet").style.backgroundColor="rgb(90,7,90)";
+ 
+  
+  return true;
+}
+
+function myFunctionB() {
+  document.getElementById("button-green").style.backgroundColor="blue";
+  document.getElementById("button-red").style.backgroundColor="blue";
+  document.getElementById("button-blue").style.backgroundColor="blue";
+  document.getElementById("button-yellow").style.backgroundColor="blue";
+  document.getElementById("button-cream").style.backgroundColor="blue";
+  document.getElementById("button-violet").style.backgroundColor="blue"
+  document.getElementById("button-green").style.visibility="visible";
+  document.getElementById("button-red").style.visibility="visible";
+  document.getElementById("button-blue").style.visibility="visible";
+  document.getElementById("button-violet").style.visibility="visible";
+  document.getElementById("button-yellow").style.visibility="visible";
+  document.getElementById("button-cream").style.visibility="visible";
+
+  document.getElementById("button-green").innerHTML="";
+  document.getElementById("button-red").innerHTML="";
+  document.getElementById("button-blue").innerHTML="";
+  document.getElementById("button-violet").innerHTML="";
+  document.getElementById("button-cream").innerHTML="";
+  document.getElementById("button-yellow").innerHTML="";
+  
+  
+  return true;
+}
+function myFunctionC() {  
+
+    document.getElementById("button-green").innerHTML="COOL";
+    document.getElementById("button-green").style.color="white";
+  document.getElementById("button-red").innerHTML="COOL";
+  document.getElementById("button-red").style.color="white";
+  document.getElementById("button-blue").innerHTML="COOL";
+  document.getElementById("button-blue").style.color="white";
+  document.getElementById("button-violet").innerHTML="COOL";
+  document.getElementById("button-violet").style.color="white";
+  document.getElementById("button-cream").innerHTML="COOL";
+  document.getElementById("button-cream").style.color="white";
+  document.getElementById("button-yellow").innerHTML="COOL";
+  document.getElementById("button-yellow").style.color="white";
+  document.getElementById("button-green").style.backgroundColor="green";
+  document.getElementById("button-red").style.backgroundColor="red";
+  document.getElementById("button-blue").style.backgroundColor="blue";
+  document.getElementById("button-yellow").style.backgroundColor="yellow";
+  document.getElementById("button-cream").style.backgroundColor="rgb(211,190,190)";
+  document.getElementById("button-violet").style.backgroundColor="rgb(90,7,90)";
+  document.getElementById("button-green").style.visibility="visible";
+  document.getElementById("button-red").style.visibility="visible";
+  document.getElementById("button-blue").style.visibility="visible";
+  document.getElementById("button-violet").style.visibility="visible";
+  document.getElementById("button-yellow").style.visibility="visible";
+  document.getElementById("button-cream").style.visibility="visible";
+ 
+  return true;
+}
+function myFunctionD() {
+  document.getElementById("button-violet").style.visibility="hidden";
+  document.getElementById("button-yellow").style.visibility="hidden";
+  document.getElementById("button-cream").style.visibility="hidden";
+  document.getElementById("button-green").innerHTML="";
+  document.getElementById("button-red").innerHTML="";
+  document.getElementById("button-blue").innerHTML="";
+  document.getElementById("button-violet").innerHTML="";
+  document.getElementById("button-cream").innerHTML="";
+  document.getElementById("button-yellow").innerHTML="";
+  document.getElementById("button-green").style.backgroundColor="green";
+  document.getElementById("button-red").style.backgroundColor="red";
+  document.getElementById("button-blue").style.backgroundColor="blue";
+  document.getElementById("button-yellow").style.backgroundColor="yellow";
+  document.getElementById("button-cream").style.backgroundColor="rgb(211,190,190)";
+  document.getElementById("button-violet").style.backgroundColor="rgb(90,7,90)";
+  document.getElementById("button-green").style.visibility="visible";
+  document.getElementById("button-red").style.visibility="visible";
+  document.getElementById("button-blue").style.visibility="visible";
+ 
+ 
+  return true;
+}
+function myFunctionE() {
+  document.getElementById("button-green").style.backgroundColor=" rgb(90, 7, 90)";
+  document.getElementById("button-red").style.backgroundColor="yellow";
+  document.getElementById("button-blue").style.backgroundColor="rgb(211, 190, 190)";
+  document.getElementById("button-yellow").style.backgroundColor="red";
+  document.getElementById("button-cream").style.backgroundColor="blue";
+  document.getElementById("button-violet").style.backgroundColor="green";
+  document.getElementById("button-green").style.visibility="visible";
+  document.getElementById("button-red").style.visibility="visible";
+  document.getElementById("button-blue").style.visibility="visible";
+  document.getElementById("button-violet").style.visibility="visible";
+  document.getElementById("button-yellow").style.visibility="visible";
+  document.getElementById("button-cream").style.visibility="visible";
+  document.getElementById("button-green").innerHTML="";
+  document.getElementById("button-red").innerHTML="";
+  document.getElementById("button-blue").innerHTML="";
+  document.getElementById("button-violet").innerHTML="";
+  document.getElementById("button-cream").innerHTML="";
+  document.getElementById("button-yellow").innerHTML="";
+
+  return true;
+}
+
+
+
+    
+
+
+
+function reset()
+
+{
+  document.getElementById("button-green").style.visibility="visible";
+  document.getElementById("button-red").style.visibility="visible";
+  document.getElementById("button-blue").style.visibility="visible";
+  document.getElementById("button-violet").style.visibility="visible";
+  document.getElementById("button-yellow").style.visibility="visible";
+  document.getElementById("button-cream").style.visibility="visible";
+  document.getElementById("button-green").style.backgroundColor="green";
+  document.getElementById("button-red").style.backgroundColor="red";
+  document.getElementById("button-blue").style.backgroundColor="blue";
+  document.getElementById("button-yellow").style.backgroundColor="yellow";
+  document.getElementById("button-cream").style.backgroundColor="rgb(211,190,190)";
+  document.getElementById("button-violet").style.backgroundColor="rgb(90,7,90)";
+
+  document.getElementById("button-green").innerHTML="";
+  document.getElementById("button-red").innerHTML="";
+  document.getElementById("button-blue").innerHTML="";
+  document.getElementById("button-violet").innerHTML="";
+  document.getElementById("button-cream").innerHTML="";
+  document.getElementById("button-yellow").innerHTML="";
+  return true;
+
+   
+}
+
+ 
+
+
+
+
+</script>
+
+
+
+    </head>
+    <body>
+       
+
+<div class="full-container">
+  
+
+        <div class="circles">
+        <div onclick="return myFunctionA()" id="a" class="classy A">A</div>
+        <div  onclick=" return myFunctionB()" id="b" class="classy B">B</div>
+        <div onclick="return myFunctionC()" id="c" class="classy C">C</div>
+        <div  onclick="return myFunctionD()" id="d" class="classy D">D</div>
+        <div onclick="return myFunctionE()" id="e" class="classy E">E</div>
+        </div>
+
+        
+        <section>
+        <div class="left-container">
+        <button    id="button-green" class="buttons  buttons-left green"></button>
+        <button   id="button-red" class="buttons  buttons-left red"></button>
+        <button   id="button-blue" class="buttons  buttons-left blue"></button>
+        </div>
+        </section>
+
+
+        <div class="middle-container" id="reset" onclick=" return reset()" >reset</div>
+    
+
+         <aside>
+         <div class="right-container">
+            <button id="button-violet" class ="buttons  buttons-right violet"></button>
+            <button id="button-yellow"  class="buttons  buttons-right yellow"></button>
+           <button  id="button-cream" class="buttons  buttons-right cream"></button>
+         <div>
+         </aside>
+
+        
+
+
+
+ </div> 
+</body>
+</html>
